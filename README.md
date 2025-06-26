@@ -15,7 +15,7 @@ That’s why PromptDC was created. It enhances your prompts with one keyboard cl
 3. **PromptDC enhances your prompt**
 4. **Automatically replaces your prompt with the enhanced version**
 
-![How It Works](https://raw.githubusercontent.com/promptdc/vscode-extension/main/media/how-it-works.gif)
+![How It Works](https://raw.githubusercontent.com/Pvisilias/promptdc-vscode/refs/heads/main/media/how-it-works.gif)
 
 ## How Enhance Works
 
@@ -29,17 +29,17 @@ Based on the AI model (Copilot or Cline) you’re using, our extension reads its
 
 See for yourself. Here’s a real-world example of how PromptDC improves your prompt:
 
-![PromptDC example](https://raw.githubusercontent.com/promptdc/vscode-extension/main/media/dif.png)
+![PromptDC example](https://raw.githubusercontent.com/Pvisilias/promptdc-vscode/refs/heads/main/media/dif.png)
 
 # Extension Settings
 
 The settings are located at the bottom right of VS Code, below the chat (status bar). If you have hidden the status bar, you won’t be able to see it. To make it visible, enable the status bar from **Customize Layout**.
 
 ## How to Change Keyboard Shortcut
-![How to change keyboard shortcut](https://raw.githubusercontent.com/promptdc/vscode-extension/main/media/shortcut.png)
+![How to change keyboard shortcut](https://raw.githubusercontent.com/Pvisilias/promptdc-vscode/refs/heads/main/media/shortcut.png)
 
 ## How to Change Model (Cline or Copilot)
-![How to change model (Cline or Copilot)](https://raw.githubusercontent.com/promptdc/vscode-extension/main/media/model.png)
+![How to change model (Cline or Copilot)](https://raw.githubusercontent.com/Pvisilias/promptdc-vscode/refs/heads/main/media/model.png)
 
 ## Privacy & Terms
 
