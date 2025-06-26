@@ -1,0 +1,165 @@
+{
+  "name": "promptdc-vscode",
+  "displayName": "PromptDC | Cursor for Prompts",
+  "description": "Vibe Coding Prompting | One-click prompt enhancement for Cline and GitHub Copilot chats",
+  "version": "1.0.0",
+  "publisher": "promptdc",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "AI",
+    "Machine Learning",
+    "Snippets",
+    "Formatters",
+    "Other"
+  ],
+  "keywords": [
+    "ai prompt enhancer",
+    "vibe coding prompting",
+    "cursor for prompts",
+    "coding prompt fixer",
+    "prompt improvement",
+    "AI coding assistant",
+    "better prompts",
+    "prompt engineering",
+    "AI development tools",
+    "coding productivity",
+    "prompt refinement",
+    "AI prompt helper",
+    "coding efficiency",
+    "VS Code prompts",
+    "github copilot chat",
+    "Claude coding",
+    "Claude prompts",
+    "prompt rewriting tool",
+    "ai coding",
+    "ai prompt generator",
+    "ai extension",
+    "vibe coding",
+    "prompt optimization",
+    "AI prompt best practices",
+    "vscode extension",
+    "text enhancement",
+    "developer tools",
+    "programming assistant",
+    "code generation"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "promptdc.enhanceText",
+        "title": "Enhance Text",
+        "category": "PromptDC"
+      },
+      {
+        "command": "promptdc.enhanceTextAuto",
+        "title": "Auto-Enhance Text",
+        "category": "PromptDC"
+      },
+      {
+        "command": "promptdc.enhanceTextDirect",
+        "title": "Enhance Text (Direct Input)",
+        "category": "PromptDC"
+      },
+      {
+        "command": "promptdc.openSettings",
+        "title": "Open Settings",
+        "category": "PromptDC"
+      },
+      {
+        "command": "promptdc.login",
+        "title": "Login",
+        "category": "PromptDC"
+      },
+      {
+        "command": "promptdc.logout",
+        "title": "Logout",
+        "category": "PromptDC"
+      },
+      {
+        "command": "promptdc.configure",
+        "title": "Configure",
+        "category": "PromptDC"
+      },
+      {
+        "command": "promptdc.enhanceChatText",
+        "title": "Enhance Chat Text",
+        "category": "PromptDC"
+      }
+    ],
+    "configuration": {
+      "title": "PromptDC",
+      "properties": {
+        "promptdc.enableAutoDetection": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically detect and show enhance button on text inputs"
+        }
+      }
+    },
+    "keybindings": [
+      {
+        "command": "promptdc.enhanceTextAuto",
+        "key": "cmd+ctrl+e",
+        "mac": "cmd+ctrl+e",
+        "when": "!terminalFocus"
+      },
+      {
+        "command": "promptdc.enhanceTextAuto",
+        "key": "ctrl+alt+e",
+        "win": "ctrl+alt+e",
+        "linux": "ctrl+alt+e",
+        "when": "!terminalFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "install-deps": "npm install",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.126",
+    "@types/vscode": "^1.74.0",
+    "@vscode/vsce": "^2.22.0",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/promptdc/vscode-extension"
+  },
+  "bugs": {
+    "url": "https://github.com/promptdc/vscode-extension/issues"
+  },
+  "homepage": "https://promptdc.com",
+  "icon": "icon.png",
+  "author": {
+    "name": "PromptDC",
+    "email": "spromptdc@gmail.com",
+    "url": "https://promptdc.com"
+  },
+  "license": "MIT",
+  "badges": [
+    {
+      "url": "https://img.shields.io/vscode-marketplace/v/promptdc.promptdc-vscode",
+      "href": "https://marketplace.visualstudio.com/items?itemName=promptdc.promptdc-vscode",
+      "description": "Version"
+    },
+    {
+      "url": "https://img.shields.io/vscode-marketplace/d/promptdc.promptdc-vscode",
+      "href": "https://marketplace.visualstudio.com/items?itemName=promptdc.promptdc-vscode",
+      "description": "Downloads"
+    }
+  ]
+}
+ 
