@@ -1,8 +1,8 @@
 {
   "name": "promptdc-vscode",
   "displayName": "PromptDC | Cursor for Prompts",
-  "description": "Vibe Coding Prompting | One-click prompt enhancement for Cline and GitHub Copilot chats",
-  "version": "1.0.0",
+  "description": "Vibe Coding Prompting | One-click prompt enhancement for Cursor.",
+  "version": "1.0.2",
   "publisher": "promptdc",
   "engines": {
     "vscode": "^1.74.0"
@@ -28,8 +28,8 @@
     "prompt refinement",
     "AI prompt helper",
     "coding efficiency",
-    "VS Code prompts",
-    "github copilot chat",
+    "cursor extension",
+    "cursor ai",
     "Claude coding",
     "Claude prompts",
     "prompt rewriting tool",
@@ -39,7 +39,7 @@
     "vibe coding",
     "prompt optimization",
     "AI prompt best practices",
-    "vscode extension",
+    "cursor",
     "text enhancement",
     "developer tools",
     "programming assistant",
@@ -122,7 +122,7 @@
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "package": "vsce package",
+    "package": "vsce package --out promptdc-cursor-1.0.0.vsix",
     "publish": "vsce publish",
     "install-deps": "npm install",
     "test": "echo \"No tests specified\" && exit 0"
@@ -136,10 +136,10 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/promptdc/vscode-extension"
+    "url": "https://github.com/promptdc/cursor-extension"
   },
   "bugs": {
-    "url": "https://github.com/promptdc/vscode-extension/issues"
+    "url": "https://github.com/promptdc/cursor-extension/issues"
   },
   "homepage": "https://promptdc.com",
   "icon": "icon.png",
@@ -151,13 +151,13 @@
   "license": "MIT",
   "badges": [
     {
-      "url": "https://img.shields.io/vscode-marketplace/v/promptdc.promptdc-vscode",
-      "href": "https://marketplace.visualstudio.com/items?itemName=promptdc.promptdc-vscode",
+      "url": "https://img.shields.io/vscode-marketplace/v/promptdc.promptdc-cursor",
+      "href": "https://marketplace.visualstudio.com/items?itemName=promptdc.promptdc-cursor",
       "description": "Version"
     },
     {
-      "url": "https://img.shields.io/vscode-marketplace/d/promptdc.promptdc-vscode",
-      "href": "https://marketplace.visualstudio.com/items?itemName=promptdc.promptdc-vscode",
+      "url": "https://img.shields.io/vscode-marketplace/d/promptdc.promptdc-cursor",
+      "href": "https://marketplace.visualstudio.com/items?itemName=promptdc.promptdc-cursor",
       "description": "Downloads"
     }
   ]
