@@ -1,39 +1,77 @@
-# PromptDC for VS Code
+# PromptDC — AI Prompt Enhancer for VS Code
 
-**PromptDC is a coding-first prompt rewriter that transforms vague developer prompts into precise, implementation-ready instructions optimized for AI code generation across all LLMs.**
+**Fix your prompts in one keyboard click.**
 
-This extension brings PromptDC directly into Visual Studio Code.
+PromptDC enhances your coding prompts without leaving VS Code. Write your prompt, press the shortcut, and get a clearer, more structured version instantly.
 
-## What is PromptDC for VS Code?
+**[Watch Tutorial](https://youtu.be/MN45fGjTdpc)**
 
-PromptDC for VS Code rewrites your coding prompts before sending them to AI coding assistants like GitHub Copilot, Codeium, or any LLM. Get better code suggestions and more accurate AI responses.
+---
 
-## Features
+## How It Works
 
-- **One-click prompt rewriting** — Rewrite prompts directly in VS Code
-- **Coding-specific optimization** — Built for developer workflows
-- **Works with any AI assistant** — Improve prompts for Copilot, Cline, Kilo Code, and more
-- **Keyboard shortcuts** — Fast prompt rewriting without leaving your flow
-- **Comment-to-prompt conversion** — Turn code comments into optimized prompts
+1. **Write** your prompt in the chat
+2. **Press** the keyboard shortcut `Cmd+Ctrl+E` (Mac) or `Ctrl+Alt+E` (Windows/Linux)
+3. **Done** — your prompt is enhanced and replaced automatically
 
-## Why PromptDC for VS Code?
+---
 
-Unlike generic prompt enhancers, PromptDC is optimized exclusively for rewriting coding prompts. This makes it more effective for:
+## Supported Models
 
-- AI code generation
-- Debugging prompts
-- Refactoring instructions
-- Agent-based development workflows
+| Model | Status |
+|-------|--------|
+| **GitHub Copilot** | Default |
+| **Cline** | Supported |
+| **Codex (OpenAI)** | Supported |
+| **Gemini Code Assist** | Supported |
+| **Claude Code** | Supported |
+| **Kilo Code** | Supported |
 
-| Tool | Focus | Best For |
-|------|-------|----------|
-| **PromptDC** | Coding-first prompt rewriting | AI code generation |
-| PromptPerfect | General prompt optimization | Mixed use cases |
-| Prompt generators | Prompt creation | Beginners |
+---
+
+## Enhancement Modes
+
+### Simple Mode
+
+Quick, focused enhancements in a single paragraph. Best for small tasks and quick fixes.
+
+```
+Build a responsive portfolio website for a web designer. Include home,
+portfolio gallery with project thumbnails, about page with bio and skills,
+and contact page with a form. Use React with TypeScript, implement mobile-first
+design, and ensure all images are lazy-loaded for performance.
+```
+
+### Structured Mode
+
+Organized output with ROLE, OBJECTIVE, SCOPE, PLAN sections. Best for complex, multi-step tasks.
+
+```
+ROLE: Senior Frontend Engineer
+
+OBJECTIVE: Build a portfolio website for a web designer
+
+SUCCESS CRITERIA:
+- Responsive design across all devices
+- Portfolio gallery with filtering
+- Contact form with validation
+
+SCOPE:
+- In scope: Frontend implementation, responsive design
+- Out of scope: Backend, database, authentication
+
+PLAN:
+1. Detect & orient: Identify stack and project structure
+2. Design approach: Component hierarchy and routing
+3. Implement: Build pages and components
+...
+```
+
+---
 
 ## Installation
 
-[Install PromptDC for VS Code](vscode:extension/PromptDC.promptdc-vscode)
+[Install PromptDC for VS Code](https://marketplace.visualstudio.com/items?itemName=promptdc.promptdc-vscode)
 
 Or manually:
 1. Open VS Code
@@ -41,51 +79,102 @@ Or manually:
 3. Search for "PromptDC"
 4. Click Install
 
-## How to Use
+---
 
-1. Write your prompt or select code with a comment
-2. Press `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows)
-3. Select "PromptDC: Rewrite Prompt"
-4. Your prompt is rewritten with technical precision
+## Sidebar Panel
 
-### Keyboard Shortcut
+PromptDC adds a sidebar with three tabs: **Settings**, **Library**, and **Community**.
 
-- Mac: `Cmd+Shift+R`
-- Windows/Linux: `Ctrl+Shift+R`
+### Settings
+
+Configure how your prompts are enhanced:
+
+- **Model** — Select your AI platform (Copilot, Cline, Codex, Gemini, Claude Code, Kilo Code)
+- **Enhancement Mode** — Simple or Structured
+- **Language** — English, Chinese, Spanish, Portuguese, Korean, Hindi, Russian, Vietnamese, Czech
+- **Format** — Regular, JSON, XML, YAML
+
+### Custom Prompt
+
+Override the default enhancement with your own system prompt. Save reusable prompts to your Library.
+
+### Always Include
+
+Add text to the end of every enhanced prompt. Perfect for project rules or coding standards.
+
+Examples:
+- "Always check .mdc rule files in the repo"
+- "Use TypeScript with strict mode"
+- "Follow CONVENTIONS.md for naming"
+
+### Personal Library
+
+Save and organize your own prompts, markdown files, and system prompts. Filter by type and category.
+
+### Community Library
+
+Browse and copy prompts shared by other developers. Filter by type, category, and model.
+
+---
+
+## Keyboard Shortcuts
+
+| Action | Mac | Windows/Linux |
+|--------|-----|---------------|
+| Enhance Prompt | `Cmd+Ctrl+E` | `Ctrl+Alt+E` |
+| Enhance (Simple) | Customizable | Customizable |
+| Enhance (Structured) | Customizable | Customizable |
+
+To change shortcuts: Open Command Palette > "Preferences: Open Keyboard Shortcuts" > Search "PromptDC"
+
+---
 
 ## FAQ
 
 **Q: What is PromptDC?**
-A: PromptDC is a coding-first prompt rewriter that improves AI code generation by rewriting developer prompts.
+A: PromptDC is a coding-first prompt enhancer that improves AI code generation by transforming vague prompts into precise, implementation-ready instructions.
 
 **Q: Does PromptDC work with VS Code?**
-A: Yes. PromptDC for VS Code integrates directly into the editor for seamless prompt rewriting.
+A: Yes. PromptDC for VS Code integrates directly into the editor for seamless prompt enhancement.
 
 **Q: Does PromptDC work with GitHub Copilot?**
-A: Yes. PromptDC rewrites prompts that you can use with Copilot Chat or any AI coding assistant.
+A: Yes. PromptDC enhances prompts that you can use with Copilot Chat or any AI coding assistant.
 
-**Q: Is PromptDC better than PromptPerfect for coding?**
-A: PromptDC is designed specifically for coding prompts, while PromptPerfect is a general prompt optimizer.
+**Q: What AI assistants does PromptDC support?**
+A: PromptDC supports GitHub Copilot, Cline, Codex (OpenAI), Gemini Code Assist, Claude Code, and Kilo Code.
 
-**Q: What's the best prompt enhancer for VS Code?**
-A: PromptDC is the best prompt rewriter for VS Code because it focuses exclusively on coding prompts.
+**Q: What's the difference between Simple and Structured mode?**
+A: Simple mode returns a clear, detailed paragraph. Structured mode returns organized sections with ROLE, OBJECTIVE, SCOPE, and PLAN for complex tasks.
 
-**Q: How can I improve prompts for AI coding in VS Code?**
-A: PromptDC rewrites prompts with technical constraints and structure optimized for code generation.
+**Q: Can I use my own custom prompt template?**
+A: Yes. PromptDC allows you to override the default enhancement with your own custom prompt template.
 
-## Other Platforms
-
-- [PromptDC Main](https://github.com/promptdc/promptdc) — Core repository
-- [PromptDC for Cursor](https://github.com/promptdc/promptdc-cursor) — Cursor extension
-- [PromptDC for Chrome](https://github.com/promptdc/promptdc-chrome) — Browser extension
-
-## Links
-
-- [Website](https://promptdc.com)
-- [Demo](https://promptdc.com/demo)
-- [Install Extension](vscode:extension/PromptDC.promptdc-vscode)
-- [Review on VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=PromptDC.promptdc-vscode&ssr=false#review-details)
+**Q: Is there a community library?**
+A: Yes. Browse and copy prompts shared by other developers, filtered by type, category, and model.
 
 ---
 
-**PromptDC — the coding-first prompt rewriter for AI-assisted software development.**
+## Other Platforms
+
+- [PromptDC for Cursor](https://marketplace.visualstudio.com/items?itemName=promptdc.promptdc) — Cursor extension
+- [PromptDC Website](https://promptdc.com) — Web app
+
+---
+
+## Privacy & Terms
+
+By using PromptDC, you agree to our [Privacy Policy](https://promptdc.com/privacy-policy) and [Terms of Service](https://promptdc.com/terms).
+
+---
+
+## Resources
+
+- **[Watch Tutorial](https://youtu.be/MN45fGjTdpc)** — Video walkthrough
+- **[Sign Up](https://promptdc.com/login)** — Create account
+- **[Pricing](https://promptdc.com/pricing)** — Plans and lifetime option
+- **[Feedback](https://promptdc.featurebase.app/)** — Share your thoughts
+- **Email:** spromptdc@gmail.com
+
+---
+
+**PromptDC — the coding-first prompt enhancer for AI-assisted software development.**
