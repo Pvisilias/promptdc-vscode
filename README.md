@@ -156,8 +156,8 @@ A: Yes. Browse and copy prompts shared by other developers, filtered by type, ca
 
 ## Other Platforms
 
-- [PromptDC for Cursor](https://marketplace.visualstudio.com/items?itemName=promptdc.promptdc) — Cursor extension
-- [PromptDC Website](https://promptdc.com) — Web app
+- [PromptDC for Cursor](https://open-vsx.org/extension/promptdc/promptdc-vscode) — Cursor extension
+- [PromptDC Website](https://chromewebstore.google.com/detail/ai-prompt-enhancer-for-ev/dandneiidpgdhdadiogkcikebchholpp) — Chrome extension
 
 ---
 
