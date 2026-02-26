@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "PromptDC (VS Code Extension)"
+message: "If you use PromptDC, please cite it."
+type: software
+authors:
+  - name: "Panagiotis Visilias"
+    email: "spromptdc@gmail.com"
+url: "https://promptdc.com"
+repository-code: "https://github.com/Pvisilias/promptdc-vscode"
+license: "MIT"
+abstract: "PromptDC is a coding-first prompt rewriter that transforms vague developer prompts into precise, implementation-ready instructions optimized for AI code generation across all LLMs."
