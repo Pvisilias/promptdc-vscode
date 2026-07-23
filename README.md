@@ -172,10 +172,18 @@ A: Yes. Browse and copy prompts shared by other developers, filtered by type, ca
 
 ---
 
+## Pricing & Bring Your Own Key (Lifetime)
+
+- **Pro $9/mo** — 200 enhancements/month
+- **Enterprise $15/mo** — unlimited enhancements
+- **Lifetime from $69 (one-time, BYOK)** — unlimited forever using your own OpenAI, Anthropic (Claude), Google (Gemini), or xAI (Grok) API key. Keys are entered locally in the editor, stored in globalState, never stored on PromptDC servers, and sent transiently through PromptDC's backend per request.
+
+---
+
 ## Other Platforms
 
-- [PromptDC for Cursor](https://open-vsx.org/extension/promptdc/promptdc-vscode) — Cursor extension
-- [PromptDC for Chrome](https://chromewebstore.google.com/detail/ai-prompt-enhancer-for-ev/dandneiidpgdhdadiogkcikebchholpp) — Chrome extension
+- [PromptDC for Cursor](https://open-vsx.org/extension/promptdc/promptdc-vscode) — Cursor extension (Open VSX)
+- [PromptDC for Chrome](https://chromewebstore.google.com/detail/dandneiidpgdhdadiogkcikebchholpp) — Chrome extension (any selected text anywhere on the web)
 
 ---
 
@@ -190,7 +198,7 @@ By using PromptDC, you agree to our [Privacy Policy](https://promptdc.com/privac
 - **[Watch Tutorial](https://youtu.be/MN45fGjTdpc)** — Video walkthrough
 - **[Sign Up](https://promptdc.com/login)** — Create account
 - **[Pricing](https://promptdc.com/pricing)** — Plans and lifetime option
-- **[Feedback](https://promptdc.featurebase.app/)** — Share your thoughts
+- **[Feedback](https://promptdc.com/account?feedback=true)** — Share your thoughts
 - **Email:** spromptdc@gmail.com
 
 ---
