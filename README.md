@@ -2,7 +2,7 @@
 
 **Fix your prompts in one keyboard click.**
 
-PromptDC rewrites your coding prompts without leaving VS Code. Write your prompt, press the shortcut, and get a clearer, more structured version instantly.
+PromptDC for IDE (VS Code extension, version 5.2.0) rewrites your coding prompts without leaving VS Code. Write your prompt, press the shortcut, and get a clearer, more structured version instantly.
 
 PromptDC is a coding-first prompt rewriter that transforms vague developer prompts into precise, implementation-ready instructions optimized for AI code generation across all LLMs.
 
@@ -89,7 +89,7 @@ PLAN:
 
 ## Installation
 
-[Install PromptDC for VS Code](https://marketplace.visualstudio.com/items?itemName=promptdc.promptdc-vscode)
+[Install PromptDC for VS Code](https://marketplace.visualstudio.com/items?itemName=PromptDC.promptdc-vscode)
 
 Or manually:
 1. Open VS Code
@@ -176,14 +176,31 @@ A: Yes. Browse and copy prompts shared by other developers, filtered by type, ca
 
 - **Pro $9/mo** — 200 enhancements/month
 - **Enterprise $15/mo** — unlimited enhancements
-- **Lifetime from $69 (one-time, BYOK)** — unlimited forever using your own OpenAI, Anthropic (Claude), Google (Gemini), or xAI (Grok) API key. Keys are entered locally in the editor, stored in globalState, never stored on PromptDC servers, and sent transiently through PromptDC's backend per request.
+- **Developer Lifetime from $69 (one-time, BYOK)** — unlimited forever using your own OpenAI, Anthropic (Claude), Google (Gemini), or xAI (Grok) API key. Keys are entered locally in the editor, stored in globalState, never stored on PromptDC servers, and sent transiently through PromptDC's backend per request.
+- **No free plan, no free trial, no free credits** — 14-day money-back guarantee on the first purchase.
 
 ---
 
 ## Other Platforms
 
-- [PromptDC for Cursor](https://open-vsx.org/extension/promptdc/promptdc-vscode) — Cursor extension (Open VSX)
-- [PromptDC for Chrome](https://chromewebstore.google.com/detail/dandneiidpgdhdadiogkcikebchholpp) — Chrome extension (any selected text anywhere on the web)
+- [PromptDC on Open VSX](https://open-vsx.org/extension/promptdc/promptdc-vscode) — Extension for Cursor, Windsurf, Kiro, Trae, and Antigravity
+- [PromptDC for Chrome](https://chromewebstore.google.com/detail/dandneiidpgdhdadiogkcikebchholpp) — Chrome extension (Chrome Web Store)
+
+---
+
+## More from PromptDC
+
+- **[PromptDC for Desktop](https://promptdc.com/desktop-app)** — The flagship app for macOS and Windows that enhances selected text in any app, browser, IDE chat panel or terminal. Installers available at [Download](https://promptdc.com/download), with dedicated pages for [PromptDC for Mac](https://promptdc.com/desktop-app/mac) and [PromptDC for Windows](https://promptdc.com/desktop-app/windows).
+- **[PromptDC for Terminal](https://promptdc.com/terminal)** — Prompt enhancement inside Claude Code, Codex CLI, Gemini CLI, Grok and Agy.
+- **[PromptDC for Chrome](https://promptdc.com/features/chrome)** — Rewrite editable web fields in place and enhance selected text across the web.
+- **[Free Tools](https://promptdc.com/tools)** — 118 free browser tools for prompting and text transformation.
+
+### Other GitHub Repositories
+
+- [PromptDC (Overview)](https://github.com/Pvisilias/promptdc)
+- [PromptDC Desktop App](https://github.com/Pvisilias/promptdc-desktop_app)
+- [PromptDC Chrome Extension](https://github.com/Pvisilias/promptdc-chrome)
+- [PromptDC Cursor Extension](https://github.com/Pvisilias/promptdc-cursor)
 
 ---
 
