@@ -17,4 +17,4 @@ keywords:
   - "coding prompts"
   - "VS Code extension"
   - "AI code generation"
-abstract: "PromptDC for VS Code is a coding-first prompt enhancer, optimizer, and rewriter that transforms vague developer prompts into precise, implementation-ready instructions optimized for AI code generation across Copilot, Cline, Claude Code, Gemini, Codex, Kilo Code, and all major LLMs. BYOK Lifetime from $69; Pro $9/mo; no free plan."
+abstract: "PromptDC for VS Code is an optional editor extension for PromptDC for Desktop, the universal AI writing assistant and enhancer for macOS and Windows; it rewrites prompts in editor AI chat panels. The Code profile uses one universal editable system prompt and Simple or Structured output. Pro $9/month; Enterprise $15/month; Developer Lifetime from $69 one-time with BYOK; no free plan."
